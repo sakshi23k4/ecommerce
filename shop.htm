@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,html{
+            font-family: Rubik,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        }
+        *{    
+            margin:0;
+            padding:0;
+            outline:0
+        }
+        .container-fluid {
+            width:100%;
+            float:left;
+        }
+        .container {
+            width:1200px;
+            margin:0px auto;
+            display:table;
+        }
+        .row {
+            width:100%;
+            float:left;
+        }
+        .col-lg-12 {
+            width:100%;
+            float:left;
+        }
+        .col-lg-11 {
+            width:91.66666667%;
+            float:left;
+        }
+        .col-lg-10 {
+            width:83.33333333%;
+            float:left;
+        }
+        .col-lg-9 {
+            width:75%;
+            float:left;
+        }
+        .col-lg-8 {
+            width:66.66666667%;
+            float:left;
+        }
+        .col-lg-7 {
+            width:58.33333333%;
+            float:left;
+        }
+        .col-lg-6 {
+            width:50%;
+            float:left;
+        }
+        .col-lg-5 {
+            width:41.66666667%;
+            float:left;
+        }
+        .col-lg-4 {
+            width:33%;
+            float:left;
+        }
+        .col-lg-3 {
+            width:25%;
+            float:left;
+        }
+        .col-lg-2 {
+            width:16.66666667%;
+            float:left;
+        }
+        .col-lg-1 {
+            width:8.33333333%;
+            float:left;
+        }
+        
+            .nav{
+                background-color: black;
+border-bottom: 1px solid rgb(70, 69, 69);
+                
+            }
+            .nav0{
+                
+                width: 100%;
+                color: aliceblue;
+                list-style: none;
+            }
+            .nav1 ul{
+                padding:10px;
+            }
+            .nav1 ul li{
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+            }
+            .nav2 ul li{
+            float: left;
+                margin-left: 10px;
+                list-style: none;
+                color: aliceblue;
+            }
+            .nav2 ul li img{
+                width: 100%;
+                margin-left: 10px;
+                float: left;
+                
+            }
+            .main{
+                background-color: black;
+            
+            
+            }
+         
+            .main2{
+               margin-top: 30px; 
+               margin-bottom: 30px;
+               
+        
+            }
+            .main1 img{
+            width: 100%;
+            float: left;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            }
+            .main2 ul li{
+                list-style: none;
+                color: rgb(217, 221, 224);
+                display: inline;
+                margin-left: 10px;
+                padding-left: 12px;
+                font-size: 17px;
+                color: #bfb7b7;
+            }
+            .main3 ul li{
+                list-style: none;
+                color: rgb(182, 186, 189);
+                display: inline;
+                padding-left: 22px;
+                /* margin-left: 43px; */
+                font-size: 20px;
+                
+             }
+             .main3{
+                margin-top: 30px;
+                margin-bottom: 30px;
+              
+             }
+             .fav{
+                padding-left: 10px;
+             }
+             .inner-top{
+                background-color: black;
+                color: aliceblue;
+            }
+            .inner {
+                width: 94%;
+                position: relative;
+                float: left;
+                text-align: center;
+            }
+            .inner img{
+                width: 100%;
+                height: auto;
+            }
+            .inner1{
+                position: absolute;
+                top: 110px;
+                background-color: black;
+                padding: 50px 10px;
+                text-align: center;
+                margin-left: 30px; 
+            
+            }
+            .inner1 input{
+                padding: 10px;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 20px;
+                background-color: black;
+                color: #b4b2b2;
+            
+            }
+            .inner1 h1{
+            font-size: 40px;
+            }
+            .inner1 p{
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .nav2 ul{
+                float: right;;
+            }
+            .box0{
+                background-color: black;
+                color: aliceblue;
+                
+                }
+                .boxq{
+                    width: 90%;
+                    margin-top: 20px;
+                }
+                .box{
+                    position: relative;
+                    margin-left: 21px;
+                    margin-top: 10px;
+                    margin-bottom: 12px;
+                }
+                .a{
+                    position: absolute;
+                    top: 206px;
+                    background-color: white;
+                    color: black;
+                    font-size: 15px;
+                    left: 52px;
+                    /* margin: 557px; */
+                    padding: 12px;
+                    font-weight: 500;
+            
+                }
+                .box1{
+                    position: relative;
+                    margin-left: 21px;
+                    margin-top: 10px;
+                }
+                .b{
+                    position: absolute;
+                    top: 206px;
+                    background-color: white;
+                    color: black;
+                    font-size: 15px;
+                    left: 52px;
+                    /* margin: 557px; */
+                    padding: 12px;
+                    font-weight: 500;
+                    
+                }
+                .box2{
+                    position: relative;
+                    margin-left: 21px;
+                    margin-top: 10px;
+                    
+                }
+                .c{
+                    position: absolute;
+                    top: 30px;
+                    margin-left: 424px;
+                    background-color: aliceblue;
+                    color: black;
+                    padding: 12px;
+                    font-weight: 500;
+                    left: 21px;
+                    
+                }
+                .ran{
+                    width: 90%;
+                position: relative;
+            
+                }
+                .ran1{
+            position: absolute;
+                }
+                .p1 {
+                    font-size: 18px;
+                    position: absolute;
+                    top: -317px;
+                    background-color: #e96c6c;
+                    padding: 5px;
+                    text-align: center;
+                    margin: 0px;
+                    font-family: sans-serif;
+                }
+                
+                
+                .p2{
+                    font-size: 17px;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    font-family: sans-serif;
+                    margin-top: 10px;
+                    font-weight: 500;
+                }
+                .p3{
+                    font-size: 17px;
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                }
+                .hg{
+                    margin-top: 30px;
+            
+                }
+                .ug{
+                    font-size: 28px;
+                    font-family: sans-serif;
+                    border-bottom: 3px solid red;
+                    font-size: 25px;
+                }
+                
+                
+                
+                .pg{
+                    font-size: 25px;
+                    margin-left: 16px;
+                    font-family: sans-serif;
+                }
+                .sam{
+                    background-color: black;
+                }
+                .sam1{
+                    width: 97%;
+                    position: relative;
+                    margin-bottom: 60px;
+                    margin-top: 70px;
+                   
+                }
+                .sam2{
+                    position: absolute;
+                    top: 395px;
+                    background-color: black;
+                    /* margin: -71px; */
+                    padding: 19px;
+                    /* padding-left: 184px; */
+                    margin-left: 63px;
+                    /* margin-right: 40px; */
+                    text-align: left;
+                    width: 81%;
+                }
+                .sam h3{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .kj{
+                    text-align: center;
+                    margin-bottom: 23px;
+                    font-family: sans-serif;
+                    font-size: 37px;
+                }
+                .first0{
+                    background-color: black;
+                    }
+                    .first{
+                        width: 97%;
+                        position: relative;
+                    }
+                    .first1{
+                      
+                        position: absolute;
+                        margin-bottom: 50px;
+                        margin-top: 35px;
+                        left: 374px;
+                        top: 233px;
+                        background-color: black;
+                        padding: 83px;
+                        padding-left: 120px;
+                        padding-right: 120px;
+                        margin: -79px;
+                        text-align: center;
+                    }
+                    .first1 h1{
+                    
+                    }
+                    .first1 p{
+                        margin-top: 10px;
+                        font-size: 13px;
+                        font-family: sans-serif;
+                    }
+                    
+                    
+                    
+                    
+                    .first1 button{
+                        background-color: #e96c6c;
+                        color: aliceblue;
+                        padding: 10px;
+                        margin-top: 47px;
+                        /* margin: 9px; */
+                        font-size: 20px;
+                        /* border: none; */
+                        border-style: none;
+                    }
+                    .productimg{
+                        float: left;
+                        width: 50%;
+                    }
+                    .p{
+                        width: 50%;
+                        float: left;
+                    }
+                    .p h5{
+                        padding: 0;
+                        outline: 0;
+                        font-size: 15px;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                    }
+                    .boxsing{
+                        border: 1px solid #181717;
+                        width: 90%;
+                        margin: 10px;
+                        box-shadow: gray;
+                        opacity: 1.1;
+                    
+                    }
+                    .bh{
+                        
+                        margin-top: 40px;
+                        margin-bottom: 10px;
+                        font-family: sans-serif;
+                        font-weight: 500;
+                        font-size: 13px;
+                        margin-left: 4px;
+                    }
+                    .trc{
+                        margin-top: 14px;
+                        font-size: 36px;
+                        color: #9d3838;
+                        text-align: center;
+                        margin-bottom: 3px;
+                        
+                        
+                    }
+                    .aashi{
+                        width: 18%;
+                        background-color: rgb(17, 16, 16);
+                        margin-top: 20px;
+                        margin-left: 15px;
+                        /* margin: 39px; */
+                        padding: 25px;
+                        margin-bottom: 20px;
+                    }
+                    .aashi h4{
+                        font-size: 13px;
+                        color: #b4b2b2;
+                    }
+                    .aashi p{
+                        font-size: 12px;
+                        color: #bfb7b7;
+                    }
+                    .blog{
+                        width: 30%;
+                        margin: 10px;
+                        position: relative;
+                        margin-bottom: 60px;
+                    }
+                    .blogg{
+                        width: 85%;
+                margin-left: 30px;
+                        position: absolute;
+                        top: 300px;
+                        background-color: rgb(10, 9, 9);
+                        color: rgb(141, 137, 137);
+                        text-align: center;
+                        padding: 10px;
+                       
+                    }
+                    .blogg h4{
+color: aliceblue;
+                    }
+                    .blogg1{
+                        position: absolute;
+                        top: 14px;
+                        background-color: black;
+                        margin-left: 10px;
+                        padding: 10px;
+                        text-align: center;
+                
+                    }
+                    .blogg1 h1{
+                        font-size: 15px;
+                    }
+                    .blogg1 p{
+                        font-size: 15px;
+                    }
+                    .wq{
+                        background-color: black;
+                       
+                    }
+                    .wq1{
+                        color: rgb(141, 144, 146);
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        padding: 50px;
+                        width: 80%;
+                    }
+                    .wq1 ul li{
+                        margin-top: 17px;
+                        list-style: none;
+                    }
+                    .wq1 p{
+                        margin-top: 17px;
+                    }
+                    .wq1 input{
+                        margin-top: 17px;
+                        padding: 17px;
+                        font-size: 14px;
+                        background-color: black;
+                        border-color: #745353;
+                    }
+                    
+                    
+                    
+                    .wq1 button{
+                        margin-top: 17px;
+                        padding: 17px;
+                        font-size: 17px;
+                        background-color: #831010;
+                        color: wheat;
+                        border: none;
+                    }
+                    .hg{
+                        background-color: black;
+                    }
+                    .hg1{
+                        color: aliceblue;
+                        width: 90%;
+                        float: right;
+                    }
+                    .hg2{
+                        float: left;
+                        margin-bottom: 50px;
+                    }
+                    .hg3 ul li{
+                        list-style: none;
+                        float: right;
+                        margin-bottom: 50px;
+                        margin-right: 123px;
+                    }
+                    
+    </style>
+</head>
+<body>
+    <div class="container-fluid nav">
+        <div class="container">
+            <div class="nav0">
+            <div class="row">
+                <div class="col-lg-6">
+    <div class="nav1">
+    <ul>
+        <li><i class="fa fa-clock-o"></i></li>
+<li>Visit time: Mon-Sat 9:00-19:00 </li>
+<li><i class="fa fa-headphones"></i></li>
+<li>Call us now:+0135-477-5588</li>
+</ul>
+
+</div>
+</div>
+
+<div class="col-lg-6">
+    <div class="nav2">
+<ul>
+    <li></li>
+    <li><img src="https://www.pxdraft.com/wrap/shopapp/assets/img/flags/uk.svg" style="width:20px;margin-right:5px;margin-top:2px;">  English<i class="fa fa-angle-down"></i></li>
+    <li><i class="fa fa-moon-o"></i></li>
+    <li><i class="fa fa-angle-down"></i></li>
+    <li><i class="fa fa-user-o"></i></li>
+    <li>Login</li>
+    <li><i class="fa fa-facebook"></i></li>
+    <li><i class="fa fa-twitter"></i></li>
+    <li><i class="fa fa-linkedin-square"></i></li>
+
+</ul>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+   <div class="container-fluid main">
+    <div class="container main0">
+        <div class="row">
+<div class="col-lg-3 main1">
+    <img src="logoimg.jpg" style="width:50%;">
+</div>
+<div class="col-lg-6 main2">
+    <ul style="margin:0px;">
+    <li>Demos<i class="fa fa-angle-down fav"></i></li>
+    <li>Latest<i class="fa fa-angle-down fav"></i></li>
+    <li>Collection<i class="fa fa-angle-down fav"></i></li>
+    <li>Categories<i class="fa fa-angle-down fav"></i></li>
+    <li>Pages<i class="fa fa-angle-down fav"></i></li>
+    <li>Blog<i class="fa fa-angle-down fav"></i></li>
+</ul>
+</div>
+<div class="col-lg-3 main3">
+<ul>
+    <li><i class="fa fa-search"></i></li>
+    <li><i class="fa fa-user-o"></i></li>
+    <li><i class="fa fa-heart-o"></i></li>
+    <li><i class="fa fa-shopping-cart"></i></li>
+</ul>
+</div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid inner-top">
+
+ <div class="row">
+ <div class="col-lg-4">
+<div class="inner">
+ <img src="home-banner-5.jpg" >
+<div class="inner1">
+<p>you're Looking Good</p>
+<h1>NEW LOOKBOOK</h1>
+<input type="search" placeholder="Descover More">
+ </div>
+</div>
+</div>
+<div class="col-lg-4">
+    <div class="inner">
+        <img src="home-banner-8.jpg" >
+        <div class="inner1">
+            <p>you're Looking Good</p>
+            <h1>NEW LOOKBOOK</h1>
+            <input type="search" placeholder="Descover More">
+        </div>
+
+        </div> 
+</div>
+<div class="col-lg-4">
+    <div class="inner">
+        <img src="home-banner-6.jpg">
+        <div class="inner1">
+            <p>you're Looking Good</p>
+            <h1>NEW LOOKBOOK</h1>
+            <input type="search" placeholder="Descover More">
+        </div>
+
+        </div>
+</div>
+</div>
+</div>
+<div class="container-fluid box0">
+    <div class="container boxq">
+<div class="row">
+<div class="col-lg-3">
+    <div class="box">
+<img src="shop-banner-12.jpg" style="width: 100%;">
+<div class="a">
+<p>Day Dresses</p>
+</div>
+    </div>
+    <div class="box1">
+<img src="shop-banner-14.jpg" style="width: 100%;">
+<div class="b">
+<p>The Vaction Shop</p>
+</div>
+    </div>
+
+</div>
+<div class="col-lg-6">
+    <div class="box2">
+<img src="shop-banner-13.jpg" style="width: 100%;">
+<div class="c">
+<p>Holiday Shoes</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3">
+    <div class="box">
+<img src="shop-banner-15.jpg" style="width: 100%;">
+<div class="a">
+<p>Day Dresses</p>
+</div>
+    </div>
+    <div class="box1">
+<img src="shop-banner-16.jpg" style="width: 100%;">
+<div class="b">
+<p>Up to 60% 0ff</p>
+    </div>
+
+</div>
+
+
+
+
+</div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+<h1 style="text-align: center; margin-top:20px; margin-bottom:10px;" class="hg"><span style="color: red; text-algin: center;" class="ug">New Arrival</span><span class="pg"> Upcoming</span></h1>
+<div class="col-lg-3">
+<div class="ran">
+<img src="product-11.jpg" style="width: 100%;">
+
+<div class="ran1">
+<p class="p1">Sale</p>
+</div>
+</div>
+<p class="p2">Fine-knit sweater</p>
+<p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+
+</div>
+<div class="col-lg-3">
+    <div class="ran">
+    <img src="product-12.jpg" style="width:100%;">
+    
+    <div class="ran1">
+        <p class="p1">Sale</p>
+    </div>
+    </div>
+    <p class="p2">Fine-knit sweater</p>
+    <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+    </div>
+    
+    <div class="col-lg-3">
+        <div class="ran">
+        <img src="product-13.jpg" style="width:100%;">
+        
+        <div class="ran1">
+            <p class="p1">Sale</p>
+        </div>
+        </div>
+        <p class="p2">Fine-knit sweater</p>
+        <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="ran">
+            <img src="product-14.jpg" style="width:100%;">
+            
+            <div class="ran1">
+                <p class="p1">Sale</p>
+            </div>
+            </div>
+            <p class="p2">Fine-knit sweater</p>
+            <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+            
+            </div>
+
+
+
+        </div>
+     </div>
+</div>
+<div class="container-fluid sam">
+    <div class="container">
+        <div class="row">
+<div class="col-lg-6">
+<div class="sam1">
+    <img src="shop-banner-17.jpg" style="width: 100%;">
+<div class="sam2">
+    <h3>CHECKOUT OUR LATEST COLLECTION</h3>
+
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+    <div class="sam1">
+        <img src="shop-banner-18.jpg" style="width: 100%;">
+    <div class="sam2">
+        <h3>CHECKOUT OUR LATEST COLLECTION</h3>
+    
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+        </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+<h1 class="kj">Browse our Bestsellers</h1>
+<div class="col-lg-3">
+<div class="ran">
+<img src="product-16.jpg" style="width: 100%;">
+
+<div class="ran1">
+<p class="p1">Sale</p>
+</div>
+</div>
+<p class="p2">Fine-knit sweater</p>
+<p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+
+</div>
+<div class="col-lg-3">
+    <div class="ran">
+    <img src="product-11.jpg" style="width:100%;">
+    
+    <div class="ran1">
+        <p class="p1">Sale</p>
+    </div>
+    </div>
+    <p class="p2">Fine-knit sweater</p>
+    <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+    </div>
+    
+    <div class="col-lg-3">
+        <div class="ran">
+        <img src="product-13.jpg" style="width:100%;">
+        
+        <div class="ran1">
+            <p class="p1">Sale</p>
+        </div>
+        </div>
+        <p class="p2">Fine-knit sweater</p>
+        <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="ran">
+            <img src="product-14.jpg" style="width:100%;">
+            
+            <div class="ran1">
+                <p class="p1">Sale</p>
+            </div>
+            </div>
+            <p class="p2">Fine-knit sweater</p>
+            <p class="p3"><span style="color: red;">$28.50 </span>$38.50</p>
+            
+            </div>
+
+
+
+        </div>
+     </div>
+</div>
+<div class="container-fluid first0">
+    <div class="container">
+        <div class="row">
+<div class="first">
+    <img src="bg-banner-3.jpg" style="width: 100%;">
+    <div class="first1">
+<h1>Get-50% frome</h1>
+<h1>Summer Collection</h1>
+<p>Hurry Up! Limited time offer</p>
+<!-- <ul>
+    <li>25</li>
+    <li>02</li>
+    <li>29</li>
+    <li>12</li>
+</ul>
+<ul>
+    <li>DAY</li>
+    <li>HOURS</li>
+    <li>MINUTES</li>
+    <li>SECONDS</li>
+</ul> -->
+<button>Shop Now</button>
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+</div>
+<div class="container-fluid">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 bh"><h2>New Arrivals</h2></div>
+        <div class="col-lg-4 bh"><h2>Upcoming</h2></div>
+        <div class="col-lg-4 bh"><h2>Best Seller</h2></div>
+        <div class="col-lg-4">
+            <div class="col-lg-12 boxsing boxsing">
+                <img src="product-11.jpg" style="width:40%"class="productimg">
+                <div class="p">
+                    <h5>Fine-knit sweater</h5>
+                    <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                    <h5><u>BUY NOW</u></h5>
+            </div>
+            </div>
+            <div class="col-lg-12 boxsing">
+                <img src="product-12.jpg" style="width:40%" class="productimg">
+                <div class="p">
+                    <h5>Fine-knit sweater</h5>
+                    <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                    <h5><u>BUY NOW</u></h5>
+            </div>
+            </div>
+            <div class="col-lg-12 boxsing">
+                <img src="product-13.jpg" style="width:40%" class="productimg">
+                <div class="p">
+                    <h5>Fine-knit sweater</h5>
+                    <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                    <h5><u>BUY NOW</u></h5>
+            </div>
+            </div>
+           
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-lg-12 boxsing boxsing">
+                            <img src="product-14.jpg" style="width:40%" class="productimg">
+                            <div class="p">
+                                <h5>Fine-knit sweater</h5>
+                                <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                <h5><u>BUY NOW</u></h5>
+                        </div>
+                        </div>
+                        <div class="col-lg-12 boxsing">
+                            <img src="product-16.jpg" style="width:40%" class="productimg">
+                            <div class="p">
+                                <h5>Fine-knit sweater</h5>
+                                <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                <h5><u>BUY NOW</u></h5>
+                        </div>
+                        </div>
+                        <div class="col-lg-12 boxsing">
+                            <img src="product-13.jpg" style="width:40%" class="productimg">
+                            <div class="p">
+                                <h5>Fine-knit sweater</h5>
+                                <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                <h5><u>BUY NOW</u></h5>
+                        </div>
+                        </div>
+                       
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="col-lg-12 boxsing">
+                                        <img src="product-11.jpg" style="width:40%" class="productimg">
+                                        <div class="p">
+                                            <h5>Fine-knit sweater</h5>
+                                            <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                            <h5><u>BUY NOW</u></h5>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-12 boxsing">
+                                        <img src="product-13.jpg" style="width:40%"  class="productimg">
+                                        <div class="p">
+                                            <h5>Fine-knit sweater</h5>
+                                    <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                    <h5><u>BUY NOW</u></h5>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-12 boxsing">
+                                        <img src="product-12.jpg" style="width:40%" class="productimg">
+                                        <div class="p">
+                                            <h5>Fine-knit sweater</h5>
+                                            <h5><span style="color: #e96c6c; font-size:15px">$28.50</span><span style="font-size:15px;"> $38.50</span></h5>
+                                    <h5><u>BUY NOW</u></h5>
+                                    </div>
+                                    </div>
+                                   
+                                            </div>
+         
+           
+               
+                    </div>
+                
+
+</div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 aashi">
+                <div class="col-lg-4"><i class="fa fa-truck trc"></i></div>
+                <div class="col-lg-8">
+                <h4>Free shipping</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="col-lg-3 aashi">
+                <div class="col-lg-4"><i class="fa fa-headphones trc"></i></div>
+                <div class="col-lg-8">
+                <h4>Contact-us 24/7</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="col-lg-3 aashi">
+                <div class="col-lg-4"><i class="fa fa-arrow-circle-o-left trc"></i></div>
+                <div class="col-lg-8">
+                <h4>30 Days Return</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="col-lg-3 aashi">
+                <div class="col-lg-4"><i class="fa fa-shield trc"></i></div>
+                <div class="col-lg-8">
+                <h4>100% Secure Payment</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            
+                <h1 style="text-align: center;">- New Blog Posts -</h1>
+                <div class="col-lg-4 blog">
+                    <img src="blog-2.jpg" alt="" width="100%"height="350px">
+                    <div class="blogg">
+                        <h4>Make your Marketing website</h4>
+                        <p>lorem ipsum dolor sit amet. xonsectetur adipisicing elit. sed do eiusmod</p>
+                    </div>
+                    <div class="blogg1">
+                        <h1>25</h1>
+                        <p>MAR</p>
+                                        </div>
+                </div>
+                <div class="col-lg-4 blog">
+                    <img src="blog-1.jpg" alt="" width="100%"height="350px">
+                    <div class="blogg">
+                        <h4>Make your Marketing website</h4>
+                        <p>lorem ipsum dolor sit amet. xonsectetur adipisicing elit. sed do eiusmod</p>
+                    </div>
+                    <div class="blogg1">
+                        <h1>25</h1>
+                        <p>MAR</p>
+                                        </div>
+                </div>
+                <div class="col-lg-4 blog">
+                <img src="blog-3.jpg" alt="" width="100%"height="350px">
+                <div class="blogg">
+                    <h4>Make your Marketing website</h4>
+                    <p>lorem ipsum dolor sit amet. xonsectetur adipisicing elit. sed do eiusmod</p>
+                </div>
+                <div class="blogg1">
+<h1>25</h1>
+<p>MAR</p>
+                </div>
+                </div>
+            
+
+
+
+</div>
+</div>
+</div>
+<div class="container-fluid wq">
+    <div class="container wq1">
+        <div class="row">
+<div class="col-lg-3">
+    <h1>SUPPORT</h1>
+    <ul>
+        <li>Help</li>
+        <li>Contact Us</li>
+        <li>Feedback</li>
+        <li>Unsubscribe</li>
+        <li>Reservations</li>
+        
+    </ul>
+
+</div>
+<div class="col-lg-3">
+    <h1>POLICIES</h1>
+    <ul>
+        <li>Help</li>
+        <li>Contact Us</li>
+        <li>Feedback</li>
+        <li>Unsubscribe</li>
+        <li>Reservations</li>
+        
+    </ul>
+
+</div>
+<div class="col-lg-3">
+    <h1>CATEGORIES</h1>
+    <ul>
+        <li>Help</li>
+        <li>Contact Us</li>
+        <li>Feedback</li>
+        <li>Unsubscribe</li>
+        <li>Reservations</li>
+        
+    </ul>
+
+</div>
+<div class="col-lg-3">
+    <h1>STAY UP TO DATE</h1>
+    <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+    <input type="text" class="text1" placeholder="Enter your email"><button><i class="fa fa-envelope-open-o"></i></button>
+    
+    <p>New UI kits or big discounts. Never <br>spam.</p>
+
+</div>
+
+
+
+
+
+            
+    </div>
+</div>
+</div>
+<div class="container-fluid hg">
+    <div class="container hg1">
+<div class="row">
+
+    <div class="col-lg-6 hg2">
+<h6>© 2023 copyright by pxdraft</h6>
+    </div>
+    <div class="col-lg-6 hg3">
+<ul>
+    <li><img src="https://www.pxdraft.com/wrap/shopapp/assets/img/payments.png"></li>
+  
+</ul>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
